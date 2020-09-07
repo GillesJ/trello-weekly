@@ -2,7 +2,7 @@
 Python script for generating a nice weekly report of your activity cards in Trello.
 Opens Thunderbird email-client with the email ready, if you have it installed.
 
-# Requirements and install
+## Requirements and install
 - Trello API keys and the identifiers of the specific board and lists to report should be place in `secrets.py`.
   - You can obtain an API key from https://trello.com/app-key.
   - You can obtain the id of your board and list by browsing to the desired board and appending `.json` to the Trello.com url.
@@ -14,7 +14,7 @@ Opens Thunderbird email-client with the email ready, if you have it installed.
     - isoweek 
 - Thunderbird email client (optional)
 
-# Usage and output
+## Usage and output
 `python makeoverview.py`
 
 ```
@@ -30,3 +30,7 @@ Fri:
 	• Label1: Item 3.
 	• Label3: Item 4.
 ```
+
+### TODO
+- [ ] Add language options for flavour text.
+- [ ] Add command-line interface with argument options.
